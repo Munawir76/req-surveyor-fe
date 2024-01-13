@@ -1,8 +1,21 @@
 import React from 'react';
-import Router from './router';
+import { Outlet } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import useProgressBar from './hooks/useProgressBar';
 
 function App() {
-  return <Router />;
+  useProgressBar();
+
+  return (
+    <>
+      <Navbar />
+      <div className="md:container md:mx-auto md:px-4">
+        <Outlet />
+      </div>
+      <Footer />
+    </>
+  );
 }
 
 export default App;
