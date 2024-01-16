@@ -1,7 +1,7 @@
 import Home from '../pages/Home';
-import About from '../pages/About';
 import App from '../App';
 import NotFound from '../pages/404';
+import Profile from '../pages/Profile';
 
 const routes = [
   {
@@ -14,8 +14,8 @@ const routes = [
         element: <Home />,
       },
       {
-        path: '/about',
-        element: <About />,
+        path: '/profile',
+        element: <Profile />,
       },
     ],
   },

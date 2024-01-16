@@ -1,7 +1,7 @@
 import React from 'react';
 
-function About() {
+function Profile() {
   return <div>About you AH</div>;
 }
 
-export default About;
+export default Profile;
