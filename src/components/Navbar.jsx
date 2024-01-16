@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <nav
       className={`relative md:flex md:justify-between md:items-center p-4 bg-white border-b border-gray-400 overflow-hidden transition-all ease-linear ${
-        collapse ? 'h-14' : 'h-52'
+        collapse ? 'h-14' : 'h-52 md:h-full'
       }`}
     >
       <div>LOGO</div>

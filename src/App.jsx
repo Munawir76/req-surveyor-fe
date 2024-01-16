@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="md:container md:mx-auto md:px-4">
+      <div className="container md:mx-auto md:px-4">
         <Outlet />
       </div>
       <Footer />
